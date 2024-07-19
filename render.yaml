@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: uptimekuma
+    env: docker
+    repo: https://github.com/Olyno/uptime-kuma-docker.git
+    region: oregon
+    plan: starter
+    branch: master
+    rootDir: uptimekuma
+    healthCheckPath: /
