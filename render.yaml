@@ -2,9 +2,9 @@ services:
   - type: web
     name: uptimekuma
     env: docker
-    repo: https://github.com/Olyno/uptime-kuma-docker.git
-    region: oregon
+    repo: https://github.com/orangepixe/uptime.git
+    region: frankfurt
     plan: starter
     branch: master
-    rootDir: uptimekuma
+    rootDir: /
     healthCheckPath: /
